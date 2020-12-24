@@ -556,7 +556,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 3px;
   background: #e62b1e;
   bottom: 0;
-  left: 0;
+  left: 47%;
 }
 
 .section-header p {
