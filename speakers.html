@@ -1,13 +1,131 @@
 <html>
 <head>
-<meta charset="utf-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
+    <meta content="tedxvce, tedx, tedx talks, hyderabad, talks, speakers" name="keywords">
+    <meta content="TEDx is an international community that organizes TED-style events anywhere and everywhere" name="description">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
     <title>Speakers</title>
-<link rel="stylesheet" type="text/css" href="speaker.css"/>
+    <style>
+	 #header {
+            background-color: black;
+        }
+	.card-text{
+            color: black;
+        }
+        .card-img-top {
+            height: 400px;
+            weight: 500px;
+        }
+        .card:hover {
+            transform: scale(1.01);
+        }
+        
+        .card-title {
+            text-transform: uppercase;
+            font-weight: bold;
+            color: red;
+        }
+        
+        .card-text {
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        
+        .social a .tw {
+            background-color: #0084b4;
+        }
+        
+        .social a .fb {
+            background-color: #3b5998;
+        }
+        
+        .social a .ig {
+            background-color: #cd486b;
+        }
+        
+        .social a .tw:hover {
+            transform: scale(1.15);
+        }
+        
+        .social a .fb:hover {
+            transform: scale(1.15);
+        }
+        
+        .social a .ig:hover {
+            transform: scale(1.15);
+        }
+        
+        .social div {
+            width: 40px;
+            height: 40px;
+            background: green;
+            margin: 0 5px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .social {
+            width: 50%;
+            height: 50px;
+            position: absolute;
+            z-index: 15;
+            bottom: 0%;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            width: 100%;
+            height: 60px;
+            background-color: black;
+            opacity: 0.85;
+        }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 1px 16px;
+            text-decoration: none;
+        }
+        
+        .main {
+            padding: 13px;
+            margin-top: 50px;
+            height: 1500px;
+            /* Used in this example to enable scrolling */
+        }
+        
+        .null {
+            display: none;
+            visibility: hidden;
+        }
+    </style>
 </head>
 <body>
  <!-- Optional JavaScript -->
